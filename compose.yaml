@@ -1,0 +1,7 @@
+﻿services:
+  vb.bookstore.api:
+    image: vb.bookstore.api
+    build:
+      context: .
+      dockerfile: VB.BookStore.Api/Dockerfile
+
